@@ -1,13 +1,15 @@
 package empresa.dados;
 public class Funcionario {
-	String nome;
+	private String nome;
 	double salario;
 
-	public Funcionario(String nomeInit, double salarioInit) {
-	nome = nomeInit;
-	salario = salarioInit;
-	System.out.println ("Nome: " + nome);
-	System.out.println ("Salário: " + salario);
-	
+	private Funcionario(String nomeInit, double salarioInit) {
+		nome = nomeInit;
+		salario = salarioInit;
+		System.out.println ("Nome: " + nome);
+		System.out.println ("Salário: " + salario);
+	}
+	protected Funcionario() {
+		Funcionario func = new Funcionario("Mario", 4000);
 	}
 }
