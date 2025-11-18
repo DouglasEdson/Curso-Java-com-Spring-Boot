@@ -4,9 +4,17 @@ public class Funcionario{
 	String cargo;
 	int idade;
 
+	Funcionario(String nome, String cargo, int idade) {
+		this.nome = nome;
+		this.cargo = cargo;
+		this.idade = idade;
+	}
 	public static void main(String[] args) {
 
-		Funcionario funcionario1 = new Funcionario();
+		Funcionario funcionario1 = new Funcionario("João", "Desenvolvedor", 30);
+		Funcionario funcionario2 = new Funcionario("Maria", "Gerente", 50);
+
+		/*Funcionario funcionario1 = new Funcionario();
 		funcionario1.nome = "João";
 		funcionario1.cargo = "Desenvolvedor";
 		funcionario1.idade = 30;
@@ -14,7 +22,7 @@ public class Funcionario{
 		Funcionario funcionario2 = new Funcionario();
 		funcionario2.nome = "Maria";
 		funcionario2.cargo = "Gerente";
-		funcionario2.idade = 30;
+		funcionario2.idade = 30;*/
 
 		System.out.println("Nome: " + funcionario1.nome);
 		System.out.println("Cargo: " + funcionario1.cargo);
