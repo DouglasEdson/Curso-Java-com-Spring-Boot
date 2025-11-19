@@ -1,6 +1,8 @@
-import empresa.dados.*;
+import empresa.dados.Funcionario;
+
 public class FolhaDePagamento {
 	public static void main(String[] args) {
-		TestePackage tp = new TestePackage ();
+		Funcionario funcionario = new Funcionario("Douglas", 5000.00);
+		System.out.println(funcionario.obterInfo());
 	}
 }
