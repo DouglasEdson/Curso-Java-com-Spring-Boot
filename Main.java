@@ -1,16 +1,15 @@
-	public class Main{
-		public static void main(String[] args){
+public class Main {
+		public static void main(String[] args) {
+			// Criando instâncias de produto
+			Produto p1 = new Produto("Notebook", 3500.00, 10);
+			Produto p2 = new Produto("Smartphone", 2500.00, 20);
+			Produto p3 = new Produto("Mouse", 80.00, 50);
 
-		int day = 1;
-
-		switch (day) {
-		case 1 -> System.out.println("Segunda");
-		case 2 -> System.out.println("Terça");
-		case 3 -> System.out.println("Quarta");
-
-			// ...
-
-		default -> System.out.println("Desconhecido");
+			// Exibindo os produtos
+			p1.exibirProduto();
+			p2.exibirProduto();
+			p3.exibirProduto();
+			
 		}
-		}
+
 	}
