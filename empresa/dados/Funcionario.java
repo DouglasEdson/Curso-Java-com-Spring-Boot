@@ -15,4 +15,7 @@ public class Funcionario {
             salario += aumento;
             //aumento += 1000;
         }
+        public void alterarQualquerSalario(Funcionario func, double novoSalario) {
+            func.salario = novoSalario;
+        }
     }
