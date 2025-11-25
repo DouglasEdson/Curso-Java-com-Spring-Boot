@@ -1,3 +1,4 @@
+ HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -28,3 +29,46 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Compilação
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Diretórios de build
+/target/
+/build/
+/out/
+
+# Configurações locais
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+>>>>>>> 55f01f5f77803e437a0ceb418b138affe429c176
